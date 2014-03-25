@@ -1,0 +1,27 @@
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN">
+
+<meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+<div data-bb-type="screen" data-bb-effect="fade">
+
+<div id="map_canvas">
+	<p id="posicion">Posición: </p>
+	<canvas id="lienzo" width="900" height="900">
+		<p>No soporta HTML5,pruebe otro navegador</p>
+	</canvas>
+</div>
+<div data-bb-type="action-bar">
+
+<div onclick="bb.pushScreen('brujula.html', 'brujula');" data-bb-type="action" data-bb-style="tab" data-bb-selected="true" data-bb-overflow="true" data-bb-img="images/maps.png">Brujula</div>
+
+<!-- google -->
+<div onclick="bb.pushScreen('google.html', 'google');" data-bb-type="action" data-bb-style="tab" data-bb-selected="false" data-bb-overflow="true" data-bb-img="images/maps.png">Google</div>
+
+<!-- bing -->
+<div onclick="bb.pushScreen('bing.html', 'bing');" data-bb-type="action" data-bb-style="tab" data-bb-selected="false" data-bb-overflow="true" data-bb-img="images/maps.png">Bing</div>
+       
+<!-- leaflet -->
+<div onclick="bb.pushScreen('leaflet.html', 'leaflet');" data-bb-type="action" data-bb-style="tab" data-bb-selected="false" data-bb-overflow="true" data-bb-img="images/maps.png">LeafLet</div>
+
+<!-- openlayers -->
+<div onclick="bb.pushScreen('openlayers.html', 'openlayers');" data-bb-type="action" data-bb-style="tab" data-bb-selected="false" data-bb-overflow="true" data-bb-img="images/maps.png">OpenLayers</div>
+
